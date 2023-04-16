@@ -1,0 +1,16 @@
+.menu{
+   margin: 0 5vh;
+
+    .menu-list{
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+        flex-wrap: wrap;
+        height: 110vh;
+        justify-content: space-between;
+        
+        .menu-list-item{
+            margin: 1vh;
+        }
+    }
+}
