@@ -19,7 +19,7 @@ useEffect(() => {
   return(
     <Routes>
       <Route path='/' element={<Navigation/>}> 
-        <Route path='/home' element={<Home/>} />
+        <Route index element={<Home/>} />
       </Route>
      </Routes>   
 
